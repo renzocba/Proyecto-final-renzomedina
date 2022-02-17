@@ -295,6 +295,11 @@ li {
     width: 100%;
   }
 
+  .btn {
+    background-color: red !important;
+    width: 100%;
+  }
+
   h2 {
     color: #740000;
   }
@@ -384,7 +389,8 @@ li {
   }
 
   .btn {
-    width: 30%;
+    background-color: red !important;
+    width: 100%;
   }
 
   h2 {
