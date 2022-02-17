@@ -1,0 +1,176 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: black;
+        padding: 30px;
+        color: white;
+        font-size: larger;
+        font-style: initial;
+        width: 100%;
+    }
+
+    h2 {
+        color: rgb(116, 0, 0);
+    }
+
+    h3 {
+        color: rgb(65, 62, 62);
+    }
+
+    p {
+        color: rgb(182, 182, 141);
+        font-size: large;
+    }
+
+    .fotos {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .multimedia {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*seccion preguntas*/
+    .accordion-button {
+        background-color: black;
+    }
+
+    .accordion-body {
+        background-color: black;
+    }
+
+    .respuesta {
+        color: white;
+        font-size: medium;
+    }
+    /*Pizzas*/
+    .columna{
+        display: grid;
+        width: 100%;
+    }
+    .fotos{
+        display: none;
+    }
+    .menu{
+        padding-left: 0px;
+    }
+
+
+    /*Hamburguesas,Lomos,Empanadas*/
+.cardss{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: black;
+        padding: 30px;
+        color: white;
+        font-size: larger;
+        font-style: initial;
+        width: 100%;
+    }
+    .btn{
+        width: 30%;
+    }
+
+    h2 {
+        color: rgb(116, 0, 0);
+    }
+
+    h3 {
+        color: rgb(65, 62, 62);
+    }
+
+    p {
+        color: rgb(182, 182, 141);
+        font-size: large;
+    }
+
+    .fotos {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .video {
+        width: 30%;
+    }
+
+    .multimedia {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*seccion preguntas*/
+    .accordion-button {
+        background-color: black;
+    }
+
+    .accordion-body {
+        background-color: black;
+    }
+
+    .respuesta {
+        color: white;
+        font-size: medium;
+    }
+    /*Pizzas*/
+    .columna{
+        display: grid;
+        width: 100%;
+    }
+    .fotos{
+        display: none;
+    }
+    .menu{
+        padding-left: 0px;
+    }
+        /*Hamburguesas,Lomos,Empanadas*/
+.cardss{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+}
