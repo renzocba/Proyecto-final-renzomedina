@@ -53,7 +53,7 @@ a:visited {
 body {
   background-color: black;
   padding: 30px;
-  font-size: larger;
+  font-size: 30px;
   font-family: "Lobster", cursive;
   font-display: swap;
   width: 100%;
@@ -69,7 +69,6 @@ h3 {
 
 p {
   color: #b6b68d;
-  font-size: large;
 }
 
 .fotos {
@@ -95,11 +94,21 @@ li {
 .multimedia {
   display: flex;
   justify-content: space-between;
+  padding: 2%;
+}
+
+.presentacion {
+  padding: 2%;
 }
 
 /*seccion preguntas*/
+.preguntas1 {
+  padding: 2%;
+}
+
 .accordion-button {
   background-color: black;
+  font-size: 30px;
 }
 
 .accordion-body {
@@ -118,6 +127,8 @@ li {
   grid-template-rows: 1fr;
   grid-column-gap: 15%;
   grid-row-gap: 0px;
+  font-size: 20px;
+  padding: 2%;
 }
 
 .separar {
@@ -133,12 +144,24 @@ li {
 }
 
 /*HAMBURGUESAS-Lomos-Empanadas HTML*/
+.empanadas {
+  padding: 2%;
+}
+
+.lomos {
+  padding: 2%;
+}
+
+.hamburguesas {
+  padding: 2%;
+}
+
 .cardss {
   display: flex;
   justify-content: center;
   align-items: center;
   background: black;
-  padding: 0px;
+  padding: 2px;
   width: 100%;
 }
 
@@ -286,6 +309,8 @@ li {
 .ultimanavegacion {
   display: flex;
   justify-content: right;
+  padding: 3%;
+  font-size: 20px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
