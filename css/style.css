@@ -53,7 +53,7 @@ a:visited {
 body {
   background-color: black;
   padding: 30px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Lobster", cursive;
   font-display: swap;
   width: 100%;
@@ -99,6 +99,8 @@ li {
 
 .presentacion {
   padding: 2%;
+  background-image: url(https://fondosmil.com/fondo/15548.jpg);
+  background-size: cover;
 }
 
 /*seccion preguntas*/
@@ -118,6 +120,7 @@ li {
 .respuesta {
   color: white;
   font-size: medium;
+  font-size: 25px;
 }
 
 /*PIZZAS.HTML*/
@@ -372,6 +375,10 @@ li {
   }
 
   /*seccion preguntas*/
+  .preguntas1 {
+    padding: 2%;
+  }
+
   .accordion-button {
     background-color: black;
   }
@@ -389,6 +396,7 @@ li {
   .columna {
     display: grid;
     width: 100%;
+    padding: 2%;
   }
 
   .fotos {
@@ -408,6 +416,7 @@ li {
 
   .container {
     width: 100%;
+    padding: 2%;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
@@ -469,6 +478,10 @@ li {
   }
 
   /*seccion preguntas*/
+  .preguntas1 {
+    padding: 2%;
+  }
+
   .accordion-button {
     background-color: black;
   }
@@ -486,6 +499,7 @@ li {
   .columna {
     display: grid;
     width: 100%;
+    padding: 2%;
   }
 
   .fotos {
@@ -505,6 +519,7 @@ li {
 
   .container {
     width: 100%;
+    padding: 2%;
   }
 }
 

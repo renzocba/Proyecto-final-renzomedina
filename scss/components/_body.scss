@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
 }
-
+@import "../components/variables";
 body {
   background-color: black;
   padding: 30px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: 'Lobster', cursive;
   font-display: swap;
   width: 100%;
@@ -48,15 +48,17 @@ li {
 .multimedia {
   display: flex;
   justify-content: space-between;
-  padding: 2%;
+  padding: $bg-padding;
 }
 .presentacion{
-  padding: 2%;
+  padding: $bg-padding;
+  background-image: url(https://fondosmil.com/fondo/15548.jpg);
+ background-size: cover;
 }
 
 /*seccion preguntas*/
 .preguntas1{
-  padding: 2%;
+  padding: $bg-padding;
 }
 .accordion-button {
   background-color: black;
@@ -70,6 +72,7 @@ li {
 .respuesta {
   color: white;
   font-size: medium;
+  font-size: 25px;
 }
 
 /*PIZZAS.HTML*/
@@ -80,7 +83,7 @@ li {
   grid-column-gap: 15%;
   grid-row-gap: 0px;
   font-size: 20px;
-  padding: 2%;
+  padding: $bg-padding;
 }
 
 .separar {
@@ -97,13 +100,13 @@ li {
 
 /*HAMBURGUESAS-Lomos-Empanadas HTML*/
 .empanadas{
-  padding: 2%;
+  padding: $bg-padding;
 }
 .lomos{
-  padding: 2%;
+  padding: $bg-padding;
 }
 .hamburguesas{
-  padding: 2%;
+  padding: $bg-padding;
 }
 .cardss {
   display: flex;
