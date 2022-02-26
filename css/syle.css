@@ -1,0 +1,526 @@
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li,
+a,
+.texto {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.primeranavegacion {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.btn {
+  background-color: red !important;
+  width: 20%;
+  height: 50px;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: red;
+  color: white;
+}
+
+.dropdown-item:hover {
+  transition: all 1s;
+  transform: scale(1);
+  width: 20px;
+}
+
+.navbar {
+  padding: 1px;
+  margin: 0;
+}
+
+a:visited {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  padding: 30px;
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  font-display: swap;
+  width: 100%;
+}
+
+h2 {
+  color: #740000;
+}
+
+h3 {
+  color: #413e3e;
+}
+
+p {
+  color: #b6b68d;
+}
+
+.fotos {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  grid-area: 1/4/7/6;
+}
+
+li {
+  color: white;
+}
+
+.photo {
+  width: 30%;
+}
+
+.video {
+  width: 30%;
+}
+
+.multimedia {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.presentacion {
+  padding: 2%;
+  background-image: url(https://fondosmil.com/fondo/15548.jpg);
+  background-size: cover;
+}
+
+/*seccion preguntas*/
+.preguntas1 {
+  padding: 2%;
+}
+
+.accordion-button {
+  background-color: black;
+  font-size: 30px;
+}
+
+.accordion-body {
+  background-color: black;
+}
+
+.respuesta {
+  color: white;
+  font-size: medium;
+  font-size: 25px;
+}
+
+/*PIZZAS.HTML*/
+.columna {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15%;
+  grid-row-gap: 0px;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.separar {
+  display: grid;
+  border: solid 1px white;
+  border-radius: 4px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*HAMBURGUESAS-Lomos-Empanadas HTML*/
+.empanadas {
+  padding: 2%;
+}
+
+.lomos {
+  padding: 2%;
+}
+
+.hamburguesas {
+  padding: 2%;
+}
+
+.cardss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 2px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container .card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before {
+  clip-path: circle(300px at 80% -20%);
+}
+
+.container .card .imgBx {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.container .card:hover .imgBx {
+  top: 0%;
+  transform: translateY(0%);
+}
+
+.container .card .imgBx img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 310px;
+  border-radius: 20px;
+}
+
+.container .card .contentBx {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card:hover .contentBx {
+  height: 210px;
+}
+
+.container .card .contentBx h2 {
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.container .card .contentBx .size,
+.container .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container .card:hover .contentBx .size {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.container .card:hover .contentBx .color {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.container .card .contentBx .color span:nth-child(4) {
+  background: #e91e63;
+}
+
+.container .card:hover .contentBx a {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  width: 30%;
+  padding: right 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container .card .contentBx .size h3,
+.container .card .contentBx .color h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 2px;
+  width: 80%;
+}
+
+.mapa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.ultimanavegacion {
+  display: flex;
+  justify-content: right;
+  padding: 3%;
+  font-size: 20px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-size: larger;
+    font-style: initial;
+    width: 100%;
+  }
+
+  .btn {
+    background-color: red !important;
+    width: 100%;
+  }
+
+  h2 {
+    color: #740000;
+  }
+
+  h3 {
+    color: #413e3e;
+  }
+
+  p {
+    color: #b6b68d;
+    font-size: large;
+  }
+
+  .fotos {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .foto-logo {
+    width: 100%;
+  }
+
+  .photo {
+    width: 100%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .multimedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*seccion preguntas*/
+  .preguntas1 {
+    padding: 2%;
+  }
+
+  .accordion-button {
+    background-color: black;
+  }
+
+  .accordion-body {
+    background-color: black;
+  }
+
+  .respuesta {
+    color: white;
+    font-size: medium;
+  }
+
+  /*Pizzas*/
+  .columna {
+    display: grid;
+    width: 100%;
+    padding: 2%;
+  }
+
+  .fotos {
+    display: none;
+  }
+
+  .menu {
+    padding-left: 0px;
+  }
+
+  /*Hamburguesas,Lomos,Empanadas*/
+  .cardss {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 2%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    font-size: larger;
+    font-style: initial;
+    width: 100%;
+  }
+
+  .btn {
+    background-color: red !important;
+    width: 100%;
+  }
+
+  h2 {
+    color: #740000;
+  }
+
+  h3 {
+    color: #413e3e;
+  }
+
+  p {
+    color: #b6b68d;
+    font-size: large;
+  }
+
+  .fotos {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .foto-logo {
+    width: 100%;
+  }
+
+  .photo {
+    width: 100%;
+  }
+
+  .video {
+    width: 30%;
+  }
+
+  .multimedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*seccion preguntas*/
+  .preguntas1 {
+    padding: 2%;
+  }
+
+  .accordion-button {
+    background-color: black;
+  }
+
+  .accordion-body {
+    background-color: black;
+  }
+
+  .respuesta {
+    color: white;
+    font-size: medium;
+  }
+
+  /*Pizzas*/
+  .columna {
+    display: grid;
+    width: 100%;
+    padding: 2%;
+  }
+
+  .fotos {
+    display: none;
+  }
+
+  .menu {
+    padding-left: 0px;
+  }
+
+  /*Hamburguesas,Lomos,Empanadas*/
+  .cardss {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 2%;
+  }
+}
+
+/*# sourceMappingURL=syle.css.map */
